@@ -6,8 +6,8 @@
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "The TestNFT",
-  "SYMBOL": "TNFT",
+  "NFT_NAME": "NFTJAM",
+  "SYMBOL": "NJAM",
   "MAX_SUPPLY": 100,
   "WEI_COST": 4000000000000000000,
   "DISPLAY_COST": 0.002,
