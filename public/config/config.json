@@ -10,7 +10,7 @@
   "SYMBOL": "NJAM",
   "MAX_SUPPLY": 100,
   "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 0.02,
+  "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/101nft-v4",
