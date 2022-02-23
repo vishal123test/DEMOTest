@@ -87,10 +87,6 @@ export const StyledImg = styled.img`
 //   width: 300px;
 //   }
 //   transition: width 0.5s;
-    margin-top: -134%;
-    margin-left: -74%;
-    padding-top: 29px;
-    padding-bottom: 5px;
 `;
 
 export const StyledLink = styled.a`
