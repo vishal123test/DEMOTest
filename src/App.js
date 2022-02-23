@@ -87,6 +87,10 @@ export const StyledImg = styled.img`
 //   width: 300px;
 //   }
 //   transition: width 0.5s;
+  margin-top: -170%;
+  margin-left: -74%;
+  padding-top: 29px;
+  padding-bottom: 5px;
 `;
 
 export const StyledLink = styled.a`
@@ -400,9 +404,9 @@ function App() {
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
-              alt={"example"}
+//               alt={"example"}
 //               src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
+//               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
         </ResponsiveWrapper>
