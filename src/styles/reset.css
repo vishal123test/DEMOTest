@@ -85,6 +85,10 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  margin-top: -170%;
+  margin-left: -74%;
+  padding-top: 29px;
+  padding-bottom: 5px;
 }
 /* HTML5 display-role reset for older browsers */
 article,
