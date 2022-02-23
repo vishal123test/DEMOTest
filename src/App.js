@@ -75,6 +75,9 @@ export const StyledLogo = styled.img`
 `;
 
 export const StyledImg = styled.img`
+ margin - top: -127 %;
+ margin - left: -73 %;
+  
 //   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
 //   border: 4px dashed var(--secondary);
 //   background-color: var(--accent);
@@ -88,10 +91,10 @@ export const StyledImg = styled.img`
 //   }
 //   transition: width 0.5s;
 `;
-img.sc-dQoVA.dDhGsI {
-    margin-top: -127%;
-    margin-left: -73%;
-}
+// img.sc-dQoVA.dDhGsI {
+//     margin-top: -127%;
+//     margin-left: -73%;
+// }
 export const StyledLink = styled.a`
   color: var(--secondary);
   text-decoration: none;
