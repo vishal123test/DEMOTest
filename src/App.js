@@ -74,9 +74,7 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
-export const StyledImg = styled.img`
- margin - top: -127 %;
- margin - left: -73 %;  
+export const StyledImg = styled.img` 
 //  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
 //  border: 4px dashed var(--secondary);
 //   background-color: var(--accent);
@@ -89,6 +87,10 @@ export const StyledImg = styled.img`
 //   width: 300px;
 //   }
 //   transition: width 0.5s;
+    margin-top: -134%;
+    margin-left: -74%;
+    padding-top: 29px;
+    padding-bottom: 5px;
 `;
 
 export const StyledLink = styled.a`
