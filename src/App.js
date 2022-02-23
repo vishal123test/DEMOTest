@@ -74,7 +74,7 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
-// export const StyledImg = styled.img`
+export const StyledImg = styled.img`
 //   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
 //   border: 4px dashed var(--secondary);
 //   background-color: var(--accent);
@@ -87,7 +87,7 @@ export const StyledLogo = styled.img`
 //     width: 300px;
 //   }
 //   transition: width 0.5s;
-// `;
+`;
 
 export const StyledLink = styled.a`
   color: var(--secondary);
