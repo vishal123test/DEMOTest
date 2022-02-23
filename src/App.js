@@ -91,10 +91,7 @@ export const StyledImg = styled.img`
   }
   transition: width 0.5s;
 `;
-// img.sc-dQoVA.dDhGsI {
-//     margin-top: -127%;
-//     margin-left: -73%;
-// }
+
 export const StyledLink = styled.a`
   color: var(--secondary);
   text-decoration: none;
