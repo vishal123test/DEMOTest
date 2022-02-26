@@ -216,7 +216,6 @@ function App() {
           </s.TextDescription>
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-          <StyledImg alt={"redbar"} src={"/config/images/logo1.png"} />
         </a>
         <s.TextDescription
             style={{
