@@ -310,12 +310,6 @@ function App() {
               </>
             ) : (
               <>
-//                 <s.TextTitle
-//                   //style={{ textAlign: "center", color: "var(--accent-text)" }}
-//                 >
-//                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-//                   {CONFIG.NETWORK.SYMBOL}.
-//                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -339,7 +333,6 @@ function App() {
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
-                        <s.SpacerSmall />
                       <s.TextDescription
                       style={{
                         textAlign: "center",
@@ -348,6 +341,8 @@ function App() {
                     >
                       5 max PER WALLET
                     </s.TextDescription>
+                        <s.SpacerSmall />
+                      
                         <s.TextDescription
                           style={{
                             textAlign: "center",
