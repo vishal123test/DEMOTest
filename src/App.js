@@ -54,12 +54,12 @@ export const StyledRoundButton = styled.button`
 `;
 
 export const ResponsiveWrapper = styled.div`
-  display: inherit;
+  display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: stretched;
   align-items: stretched;
-  width: 80%;
+  width: 100%;
   @media (min-width: 767px) {
     flex-direction: row;
   }
@@ -194,7 +194,6 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-   <StyledImg alt={"logo1"} src={"/config/images/logo1.png"} />
   return (
     <s.Screen>
       <s.Container
@@ -203,7 +202,6 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
       >
-        
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
         </a>
@@ -227,10 +225,10 @@ function App() {
            T U R B O
           </s.TextDescription>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{  }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <s.Container flex={1} jc={"center"} ai={"center"}>
-//             <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
+            <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
           </s.Container>
           </s.Container>
           <s.SpacerLarge />
@@ -256,7 +254,7 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            <s.TextDescription
+            {/* <s.TextDescription
               style={{
                 textAlign: "center",
                 color: "var(--primary-text)",
@@ -265,14 +263,13 @@ function App() {
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
-            </s.TextDescription>
+            </s.TextDescription> */}
             <span
               style={{
                 textAlign: "center",
               }}
             >
-              
-              <StyledButton
+              {/* <StyledButton
                 onClick={(e) => {
                   window.open("/config/roadmap.pdf", "_blank");
                 }}
@@ -281,8 +278,8 @@ function App() {
                 }}
               >
                 Roadmap
-              </StyledButton>
-              <StyledButton
+              </StyledButton> */}
+              {/* <StyledButton
                 style={{
                   margin: "5px",
                 }}
@@ -291,7 +288,7 @@ function App() {
                 }}
               >
                 {CONFIG.MARKETPLACE}
-              </StyledButton>
+              </StyledButton> */}
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -345,7 +342,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      MINT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -404,7 +401,7 @@ function App() {
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                    {/* <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
@@ -415,7 +412,7 @@ function App() {
                       >
                         {claimingNft ? "BUSY" : "BUY"}
                       </StyledButton>
-                    </s.Container>
+                    </s.Container> */}
                   </>
                 )}
               </>
@@ -455,4 +452,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
