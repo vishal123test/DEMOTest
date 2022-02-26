@@ -67,9 +67,7 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
-export const StyledImg1 = styled.img1`
-margin-left: -10px;
-`;
+
 export const StyledImg = styled.img` 
 //  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
 //  border: 4px dashed var(--secondary);
@@ -225,8 +223,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <s.Container flex={1} jc={"center"} ai={"center"}>
-//             
+            <s.Container flex={1} jc={"center"} ai={"center"}>         
           </s.Container>
           </s.Container>
           <s.SpacerLarge />
