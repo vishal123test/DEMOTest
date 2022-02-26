@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x43353b57528DEB47953277941b55D48a2f5a2468",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x43353b57528DEB47953277941b55D48a2f5a2468",
+  "CONTRACT_ADDRESS": "0xD2069E7a6300c14ee03094537351Cee1F1f6F69d",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xd2069e7a6300c14ee03094537351cee1f1f6f69d",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "ETH",
@@ -8,11 +8,11 @@
   },
   "NFT_NAME": "NFT JAM",
   "SYMBOL": "NFTJAM",
-  "MAX_SUPPLY": 100,
+  "MAX_SUPPLY": 985,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/101nft-v4",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/newnftjam",
   "SHOW_BACKGROUND": true
 }
