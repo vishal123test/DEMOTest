@@ -201,10 +201,11 @@ function App() {
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
-      >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/logo1.png"} />
         </a>
+      >
+        
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
         </a>
@@ -231,7 +232,7 @@ function App() {
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
 //           <s.Container flex={1} jc={"center"} ai={"center"}>
 //             <s.Container flex={1} jc={"center"} ai={"center"}>
-//             <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
+//            
 //           </s.Container>
 //           </s.Container>
           <s.SpacerLarge />
