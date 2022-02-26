@@ -229,6 +229,24 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+//           <s.Container flex={1} jc={"center"} ai={"center"}>
+//             <s.Container flex={1} jc={"center"} ai={"center"}>
+//             <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
+//           </s.Container>
+//           </s.Container>
+          <s.SpacerLarge />
+          <s.Container
+            flex={2}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              backgroundColor: "var(--accent)",
+              padding: 24,
+              borderRadius: 24,
+              border: "4px dashed var(--secondary)",
+              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
+            }}
+          >
             <s.TextTitle
               style={{
                 textAlign: "center",
