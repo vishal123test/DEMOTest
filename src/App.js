@@ -239,13 +239,12 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
-              background: "src={/config/images/logo1.png}",
               padding: 24,
               borderRadius: 24,
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
           >
             <s.TextTitle
               style={{
