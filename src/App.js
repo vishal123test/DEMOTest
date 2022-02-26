@@ -332,7 +332,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      5 max PER WALLET
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
@@ -347,14 +347,6 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
-                       <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      5 max PER WALLET
-                    </s.TextDescription>
                         <s.TextDescription
                           style={{
                             textAlign: "center",
