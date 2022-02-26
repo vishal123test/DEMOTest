@@ -195,6 +195,11 @@ function App() {
   }, [blockchain.account]);
 
   return (
+    <a href={CONFIG.MARKETPLACE_LINK}>
+      <StyledImg alt={"number"} src={"/config/images/logo1" : null}
+    >
+  );
+  return (
     <s.Screen>
       <s.Container
         flex={1}
@@ -229,7 +234,7 @@ function App() {
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"left"} ai={"left"}>
             <s.Container flex={1} jc={"lfet"} ai={"left"}>
-            <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
+//             <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
           </s.Container>
           </s.Container>
           <s.SpacerLarge />
