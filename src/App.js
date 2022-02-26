@@ -271,6 +271,7 @@ function App() {
                 textAlign: "center",
               }}
             >
+              <StyledImg alt={"bar"} src={"/config/images/Bar.png"} />
               <StyledButton
                 onClick={(e) => {
                   window.open("/config/roadmap.pdf", "_blank");
