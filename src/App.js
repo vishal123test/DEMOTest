@@ -326,9 +326,7 @@ function App() {
                     >
                       MINT
                     </StyledButton>
-                    {blockchain.errorMsg !== "" ? (
-                      <>
-                      <s.TextDescription
+                    <s.TextDescription
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
@@ -336,6 +334,8 @@ function App() {
                     >
                       5 max PER WALLET
                     </s.TextDescription>
+                    {blockchain.errorMsg !== "" ? (
+                      <>
                         <s.SpacerSmall />
                       
                         <s.TextDescription
