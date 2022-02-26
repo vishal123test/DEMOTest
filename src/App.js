@@ -239,12 +239,13 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
+              backgroundColor: "var(--accent)"
               padding: 24,
               borderRadius: 24,
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/MintModule.png" : null}
+            
           >
             <s.TextTitle
               style={{
