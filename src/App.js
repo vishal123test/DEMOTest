@@ -244,7 +244,7 @@ function App() {
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/MintModule.png" : null}
           >
             <s.TextTitle
               style={{
