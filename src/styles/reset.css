@@ -125,8 +125,8 @@ table {
 }
 
 @font-face {
-  font-family: "coder";
-  src: local("coder"), url(font.woff) format("woff");
+  font-family: "Jamboree";
+  src: local("Jamboree"), url(font.woff) format("woff");
 }
 
 body {
