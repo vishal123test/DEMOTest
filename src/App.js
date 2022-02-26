@@ -240,7 +240,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              background: "src={/config/images/logo1.png}"
+              background: "src={/config/images/logo1.png}",
               padding: 24,
               borderRadius: 24,
               border: "4px dashed var(--secondary)",
