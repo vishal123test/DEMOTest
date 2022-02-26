@@ -209,6 +209,14 @@ function App() {
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
         </a>
+        <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+           T U R B O
+          </s.TextDescription>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
