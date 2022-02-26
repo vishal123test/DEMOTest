@@ -326,14 +326,7 @@ function App() {
                 {blockchain.account === "" ||
                   blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      5 max PER WALLET
-                    </s.TextDescription>
+                    
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
@@ -347,6 +340,14 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
+                      <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >
+                      5 max PER WALLET
+                    </s.TextDescription>
                         <s.TextDescription
                           style={{
                             textAlign: "center",
