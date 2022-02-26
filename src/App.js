@@ -201,9 +201,6 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledImg1 alt={"logo1"} src={"/config/images/logo1.png"} />
-        </a>
-        <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
         </a>
         <s.TextDescription
