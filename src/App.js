@@ -206,7 +206,10 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+          <StyledLogo alt={"number"} src={"/config/images/number.png"} />
+        </a>
+        <a href={CONFIG.MARKETPLACE_LINK}>
+          <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
         </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
