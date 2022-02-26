@@ -227,9 +227,9 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <s.Container flex={1} jc={"center"} ai={"center"}>
-           
+          <s.Container flex={1} jc={"left"} ai={"left"}>
+            <s.Container flex={1} jc={"lfet"} ai={"left"}>
+            <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
           </s.Container>
           </s.Container>
           <s.SpacerLarge />
