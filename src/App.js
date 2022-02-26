@@ -201,9 +201,6 @@ function App() {
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
-        <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"redbar"} src={"/config/images/logo1.png"} />
-        </a>
       >
         
         <a href={CONFIG.MARKETPLACE_LINK}>
@@ -219,6 +216,7 @@ function App() {
           </s.TextDescription>
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+          <StyledLogo alt={"redbar"} src={"/config/images/logo1.png"} />
         </a>
         <s.TextDescription
             style={{
