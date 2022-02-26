@@ -206,6 +206,14 @@ function App() {
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
         </a>
+        <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+           0X...E921
+          </s.TextDescription>
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
         </a>
