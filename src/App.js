@@ -216,7 +216,7 @@ function App() {
           </s.TextDescription>
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-          <StyledLogo alt={"redbar"} src={"/config/images/logo1.png"} />
+          <StyledImg alt={"redbar"} src={"/config/images/logo1.png"} />
         </a>
         <s.TextDescription
             style={{
@@ -228,11 +228,11 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-//           <s.Container flex={1} jc={"center"} ai={"center"}>
-//             <s.Container flex={1} jc={"center"} ai={"center"}>
-//            
-//           </s.Container>
-//           </s.Container>
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+            <s.Container flex={1} jc={"center"} ai={"center"}>
+           
+          </s.Container>
+          </s.Container>
           <s.SpacerLarge />
           <s.Container
             flex={2}
