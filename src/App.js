@@ -194,11 +194,9 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-  return (
     <a href={CONFIG.MARKETPLACE_LINK}>
-      <StyledImg alt={"number"} src={"/config/images/logo1" : null}
-    >
-  );
+      <StyledImg alt={"number"} src={"/config/images/logo1" : null} />
+
   return (
     <s.Screen>
       <s.Container
