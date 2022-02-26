@@ -227,7 +227,7 @@ function App() {
            T U R B O
           </s.TextDescription>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{  }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <s.Container flex={1} jc={"center"} ai={"center"}>
 //             <StyledImg alt={"example"} src={"/config/images/logo1.png"} />
