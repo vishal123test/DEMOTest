@@ -198,9 +198,9 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
+//         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
-        </a>
+//         </a>
         <s.TextDescription
             style={{
               textAlign: "center",
@@ -209,9 +209,9 @@ function App() {
           >
            0X...E921
           </s.TextDescription>
-        <a href={CONFIG.MARKETPLACE_LINK}>
+//         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-        </a>
+//         </a>
         <s.TextDescription
             style={{
               textAlign: "center",
