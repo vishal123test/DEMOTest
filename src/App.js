@@ -24,7 +24,7 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10px;
+  padding: 10px; 
   border-radius: 100%;
   border: none;
   background-color: var(--primary);
