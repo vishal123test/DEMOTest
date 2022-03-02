@@ -196,7 +196,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg2.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
 
           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
