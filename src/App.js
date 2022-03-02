@@ -235,8 +235,8 @@ function App() {
               backgroundColor: "var(--accent)",
 //               padding: 24,
 //               borderRadius: 24,
-               border: 10px solid #048392,
-//                border: "groove",
+//                border: 10px solid #048392,
+               border: "groove",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
