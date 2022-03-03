@@ -204,7 +204,7 @@ function App() {
         <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "#dad748",
             }}
           >
            0X...E921
