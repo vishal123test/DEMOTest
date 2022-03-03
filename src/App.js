@@ -234,7 +234,7 @@ function App() {
             style={{
               backgroundColor: "var(--accent)",
               border: "10px solid #048392",
-              box-shadow: "none"
+              boxShadow: "inset 0px 0px 0px 10px #226a7d"
             }}
           >
             <s.TextTitle
