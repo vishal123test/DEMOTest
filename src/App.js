@@ -21,7 +21,7 @@ export const StyledButton = styled.button`
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
   }
-`;
+`; 
 
 export const StyledRoundButton = styled.button`
   padding: 10px; 
