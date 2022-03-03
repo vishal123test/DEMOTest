@@ -233,7 +233,8 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              border: "10px solid #048392"
+              border: "10px solid #048392",
+              box-shadow: "inset 0px 0px 0px 10px #226a7d",
             }}
           >
             <s.TextTitle
