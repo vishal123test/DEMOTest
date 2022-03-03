@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x5eb4d85Fb3Cb40972C86F698BA2e511748547F0d",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x5eb4d85Fb3Cb40972C86F698BA2e511748547F0d",
+  "CONTRACT_ADDRESS": "0x9320c9f31029bdb9e46d7421700a54fa74b8c208",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x9320c9f31029bdb9e46d7421700a54fa74b8c208",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "ETH",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nft-jam-v4",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nft-jam-qrvpzz2tp7",
   "SHOW_BACKGROUND": true
 }
