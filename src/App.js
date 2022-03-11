@@ -324,8 +324,6 @@ function App() {
                     >
                       MINT
                     </StyledButton>
-
-                    <StyledBar alt={"bar"} src={"/config/images/Bar.png"} />
   
                     <s.TextDescription
                       style={{
