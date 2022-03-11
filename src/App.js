@@ -303,7 +303,6 @@ function App() {
               </>
             ) : (
               <>
-              <StyledBar alt={"bar"} src={"/config/images/Bar.png"} />
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -326,6 +325,8 @@ function App() {
                       MINT
                     </StyledButton>
 
+                    <StyledBar alt={"bar"} src={"/config/images/Bar.png"} />
+  
                     <s.TextDescription
                       style={{
                         textAlign: "center",
