@@ -220,6 +220,7 @@ function App() {
           >
            T U R B O
           </s.TextDescription>
+      <StyledBar alt={"bar"} src={"/config/images/Bar.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
