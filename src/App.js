@@ -332,7 +332,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      5 max PER WALLET
+                     
                     </s.TextDescription>
                     {blockchain.errorMsg !== "" ? (
                       <>
