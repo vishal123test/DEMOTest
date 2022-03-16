@@ -392,7 +392,7 @@ function App() {
                           textAlign: "center",
                           color: "var(--accent-text-num)",
                           textshadow: "-3px 3px #000",
-                          fontsize: "20px",
+                          font-size: "20px",
                           fontfamily: "Jamboree, cursive",
                           opacity: "1",                 
                         }}
