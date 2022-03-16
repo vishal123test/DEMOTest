@@ -391,9 +391,9 @@ function App() {
                         style={{
                           textAlign: "center",
                           color: "var(--accent-text-num)",
-                          textshadow: "-3px 3px #000",
-                          font-size: "20px",
-                          fontfamily: "Jamboree, cursive",
+                          textShadow: "-3px 3px #000",
+                          fontSize: "20px",
+                          fontFamily: 'Jamboree', cursive,
                           opacity: "1",                 
                         }}
                       >
