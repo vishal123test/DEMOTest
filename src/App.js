@@ -346,6 +346,8 @@ function App() {
                       <>
                         <s.SpacerSmall />
                       
+                       <StyledLogo alt={"redbar"} src={"/config/images/Bar.png"} />
+                      
                         <s.TextDescription
                           style={{
                             textAlign: "center",
