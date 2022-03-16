@@ -394,7 +394,7 @@ function App() {
                           text-shadow: "-3px 3px #000",
                           font-size: "20px",
                           font-family: "Jamboree, cursive",
-                          opacity: "1"                          
+                          opacity: "1",                         
                         }}
                       >
                         {mintAmount}
