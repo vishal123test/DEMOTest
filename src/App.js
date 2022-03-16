@@ -322,7 +322,7 @@ function App() {
                     
                     <s.SpacerSmall />
                     
-                    <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+                    <StyledLogo alt={"redbar"} src={"/config/images/Bar.png"} />
                     
                     <StyledButton
                       onClick={(e) => {
