@@ -98,6 +98,9 @@ export const StyledLogo = styled.logo`
     border: 2px solid;
     border-color: #638596;
     opacity: 1;
+     @media (min-width: 767px) {
+    flex-direction: row;
+  }
 `;
 
 export const StyledLink = styled.a`
