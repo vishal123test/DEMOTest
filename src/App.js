@@ -390,7 +390,7 @@ function App() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--accent-text)",
+                          color: "var(--accent-text-num)",
                         }}
                       >
                         {mintAmount}
@@ -439,7 +439,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text-num)",
+              color: "var(--primary-text)",
             }}
           >
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
