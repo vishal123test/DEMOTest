@@ -4,14 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -470,16 +462,5 @@ function App() {
       </s.Container>
     </s.Screen>
   );
-
-const Footer = () => {
-  return (
-    <Box>
-      <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
-      </h1>
-  </Box>
-}
 
 export default App;
