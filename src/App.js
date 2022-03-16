@@ -439,7 +439,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--primary-text-num)",
             }}
           >
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
