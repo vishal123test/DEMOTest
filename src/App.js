@@ -9,7 +9,8 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  border: none;
+  border: 3px solid;
+  border-color: #48cef7;
   background-color: var(--secondary);
   padding: 10px;
   font-weight: bold;
