@@ -321,6 +321,9 @@ function App() {
                   <s.Container ai={"center"} jc={"center"}>
                     
                     <s.SpacerSmall />
+                    
+                    <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+                    
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
