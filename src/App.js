@@ -391,10 +391,7 @@ function App() {
                         style={{
                           textAlign: "center",
                           color: "var(--accent-text-num)",
-                          text-shadow: "-3px 3px #000",
-                          font-size: 20,
-                          font-family: "Jamboree cursive",
-                          opacity: "1",                         
+                                          
                         }}
                       >
                         {mintAmount}
