@@ -11,7 +11,7 @@ const truncate = (input, len) =>
 export const StyledButton = styled.button`
   border: 3px solid;
   border-color: #00d1f6;
-  background-color: var(--secondary);
+  background-color: var(--secondaryb);
   padding: 0px;
   font-weight: bold;
   color: var(--secondary-text);
@@ -346,7 +346,6 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
-                      <
                     
                        <StyledLogo alt={"redbar"} src={"/config/images/Bar.png"} />
                       
