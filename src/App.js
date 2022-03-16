@@ -96,19 +96,6 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
-export const Box = styled.div`
-  padding: 80px 60px;
-  background: #0a023f;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  
-   
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
-`;
-
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
