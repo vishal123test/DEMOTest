@@ -92,17 +92,6 @@ export const StyledImg = styled.img`
   padding-bottom: 5px;
 `;
 
-// export const StyledLogo = styled.logo`
-//     transition: height 0.5s ease 0s;
-//     height: 23px;
-//     border: 2px solid;
-//     border-color: #638596;
-//     opacity: 1;
-//      @media (min-width: 767px) {
-//     flex-direction: row;
-//   }
-// `;
-
 export const StyledLink = styled.a`
   color: var(--secondary);
   text-decoration: none;
