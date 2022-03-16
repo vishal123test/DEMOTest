@@ -10,13 +10,17 @@ const truncate = (input, len) =>
 
 export const StyledButton = styled.button`
   border: 3px solid;
-  border-color: #48cef7;
+  border-color: #00d1f6;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 0px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
+  font-family: pressstart2p;
+  font-size: 22px;
+  fill: #f5c314;
+  opacity: 1;
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
