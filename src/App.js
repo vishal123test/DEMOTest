@@ -22,6 +22,7 @@ export const StyledButton = styled.button`
   fill: #f5c314;
   opacity: 1;
   margin: 14px;
+  text-shadow: -5px 4px #000;
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
