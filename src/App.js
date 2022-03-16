@@ -11,10 +11,10 @@ const truncate = (input, len) =>
 export const StyledButton = styled.button`
   border: 3px solid;
   border-color: #00d1f6;
-  background-color: var(--secondaryb);
+  background-color: var(--secondary);
   padding: 0px;
   font-weight: bold;
-  color: var(--secondary-text);
+  color: var(--secondary-text-btn);
   width: 100px;
   cursor: pointer;
   font-family: pressstart2p;
@@ -93,7 +93,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondaryb);
+  color: var(--secondary);
   text-decoration: none;
 `;
 
