@@ -46,8 +46,6 @@ export const StyledRoundButton = styled.button`
   align-items: center;
   justify-content: center;
   text-shadow: -4px 3px #000;
-  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
