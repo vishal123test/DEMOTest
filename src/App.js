@@ -461,7 +461,7 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
-              backgroundColor: "#050a38",
+              
             }}
           >
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
