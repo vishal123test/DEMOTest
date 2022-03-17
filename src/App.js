@@ -441,11 +441,12 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "103%" }}>
           <s.TextDescription
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
+              backgroundColor: "#050a38",
             }}
           >
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
