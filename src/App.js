@@ -210,6 +210,8 @@ function App() {
             style={{
               textAlign: "center",
               color: "#dad748",
+              fontFamily: 'jamboree fantasy',
+              opacity: "1",
             }}
           >
            CONNECTED
