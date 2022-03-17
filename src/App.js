@@ -450,6 +450,7 @@ function App() {
               backgroundColor: "#050a38",
             }}
           >
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/Basebar.png" : null}
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
           <s.SpacerSmall />
