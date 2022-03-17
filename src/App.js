@@ -83,7 +83,7 @@ export const StyledBar = styled.img`
   }
   transition: width 0.5s;
   transition: height 0.5s;
-  width: 143px;
+  width: 543px;
     height: 10px;
     margin-top: 0px;
     border: 1px solid rgb(99, 133, 150);
