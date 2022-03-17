@@ -214,7 +214,7 @@ function App() {
             style={{
               textAlign: "center",
               color: "#dad748",
-              fontFamily: "Jamboree","fantasy",
+              fontFamily: "fantasy",
               opacity: "1",
             }}
           >
