@@ -260,9 +260,9 @@ function App() {
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
               height: "446px",
               width: "210px",
-              marginLeft: "495px",
-              marginTop: "181px",
-              marginRight: "139px",
+              margin-left: "495px",
+              margin-top: "181px",
+              margin-right: "139px",
               margin-bottom: "-22px",
               opacity: "1",
             }}
