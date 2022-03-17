@@ -442,6 +442,7 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/Basebar.png" : null}
         <s.Container jc={"center"} ai={"center"} style={{ width: "103%" }}>
           <s.TextDescription
             style={{
@@ -450,7 +451,6 @@ function App() {
               backgroundColor: "#050a38",
             }}
           >
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/Basebar.png" : null}
             2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
           <s.SpacerSmall />
