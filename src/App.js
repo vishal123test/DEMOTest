@@ -465,7 +465,7 @@ function App() {
               
             }}
           >
-            2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
+            
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -474,6 +474,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
+            2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
         </s.Container>
       </s.Container>
