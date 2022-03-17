@@ -83,11 +83,12 @@ export const StyledBar = styled.img`
   }
   transition: width 0.5s;
   transition: height 0.5s;
-  width: 543px;
-    height: 10px;
+  width: 1922px;
+    height: 50px;
     margin-top: 0px;
     border: 1px solid rgb(99, 133, 150);
-    box-shadow: 3px -10px inset #000;
+    box-shadow: rgb(0 0 0) 3px -10px inset;
+    margin-bottom: -66px;
 `;
 
 
