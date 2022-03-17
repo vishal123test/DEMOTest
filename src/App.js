@@ -71,7 +71,7 @@ export const StyledLogo = styled.img`
   }
   transition: width 0.5s;
   transition: height 0.5s;
-  width: 210px;
+  width: 143px;
     height: 10px;
     margin-top: 0px;
     border: 1px solid rgb(99, 133, 150);
