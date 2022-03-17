@@ -267,6 +267,8 @@ function App() {
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
+                fontFamily: "impact",
+                marginTop: "36px"
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
