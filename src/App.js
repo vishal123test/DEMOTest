@@ -442,8 +442,9 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/Basebar.png" : null}
+            
         <s.Container jc={"center"} ai={"center"} style={{ width: "103%" }}>
+          <StyledLogo alt={"redbar"} src={"/config/images/Basebar.png"} />
           <s.TextDescription
             style={{
               textAlign: "center",
