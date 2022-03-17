@@ -473,8 +473,8 @@ function App() {
               textAlign: "center",
               color: "var(--primary-text)",
             }}
-          ><br>
-            2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
+          >
+            <br>2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
         </s.Container>
       </s.Container>
