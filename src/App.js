@@ -333,7 +333,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "impact" }}
                 >
-                  .01    ETH
+                  .01 ETH
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -438,7 +438,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "MINT" : "MINT"}
                       </StyledButton>
                     </s.Container> }
                   </>
