@@ -70,6 +70,8 @@ export const StyledLogo = styled.img`
   }
   transition: width 0.5s;
   transition: height 0.5s;
+  width: 210px;
+  height: 10px;
 `;
 
 
