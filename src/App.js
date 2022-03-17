@@ -316,7 +316,7 @@ function App() {
               <>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "var(--accent-font-family)" }}
                 >
                   .01 ETH.
                 </s.TextDescription>
