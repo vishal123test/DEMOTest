@@ -84,11 +84,11 @@ export const StyledBar = styled.img`
   transition: width 0.5s;
   transition: height 0.5s;
   width: 1922px;
-    height: 50px;
-    margin-top: 0px;
-    border: 1px solid rgb(99, 133, 150);
-    box-shadow: rgb(0 0 0) 3px -10px inset;
-    margin-bottom: -66px;
+  height: 50px;
+  margin-top: 0px;
+  border-top: 2px solid #2a11d4;
+  box-shadow: rgb(0 0 0) 3px -10px inset;
+  margin-bottom: -66px;
 `;
 
 
