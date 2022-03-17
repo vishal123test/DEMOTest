@@ -71,10 +71,10 @@ export const StyledLogo = styled.img`
   transition: width 0.5s;
   transition: height 0.5s;
   width: 210px;
-  height: 10px;
-  margin-top: 0px;
-  border: 1px solid;
-  border-color: #638596;
+    height: 10px;
+    margin-top: 0px;
+    border: 1px solid rgb(99, 133, 150);
+    box-shadow: 3px -10px inset #000;
 `;
 
 
