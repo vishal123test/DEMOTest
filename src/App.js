@@ -4,6 +4,8 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import { connect } from "public/config/footer.css";
+
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -463,5 +465,19 @@ function App() {
       </s.Container>
     </s.Screen>
   );
+
+const Footer = () => {
+    return (
+      <div className="main-footer">
+        <div className="container">
+          <div className="row">
+            <div className="2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 export default App;
