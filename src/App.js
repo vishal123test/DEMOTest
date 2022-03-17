@@ -409,7 +409,7 @@ function App() {
                           color: "var(--accent-text-num)",
                           textShadow: "-3px 3px #000",
                           fontSize: "20px",
-                          fontFamily: 'Jamboree cursive',
+                          fontFamily: 'cursive',
                           opacity: "1",                 
                         }}
                       >
