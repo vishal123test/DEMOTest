@@ -303,7 +303,7 @@ function App() {
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "var(--accent-font-family)" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -316,7 +316,7 @@ function App() {
               <>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "var(--accent-font-family)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   .01 ETH.
                 </s.TextDescription>
