@@ -206,8 +206,6 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
 
-//           <StyledLogo alt={"number"} src={"/config/images/number.png"} />
-
         <s.TextDescription
             style={{
               textAlign: "center",
@@ -225,7 +223,6 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-//            T U R B O
           </s.TextDescription>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
