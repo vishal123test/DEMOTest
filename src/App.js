@@ -72,6 +72,9 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
   width: 210px;
   height: 10px;
+  margin-top: 0px;
+  border: 1px solid;
+  border-color: #638596;
 `;
 
 
