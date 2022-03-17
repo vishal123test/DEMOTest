@@ -35,9 +35,9 @@ export const StyledRoundButton = styled.button`
   border-radius: 100%;
   border: none;
   background-color: var(--primary);
-  padding: 10px;
+  padding: 15px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 24px;
   color: var(--primary-text);
   width: 30px;
   height: 30px;
@@ -45,7 +45,7 @@ export const StyledRoundButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  text-shadow: -4px 3px #000;
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
