@@ -314,7 +314,7 @@ function App() {
                 fontWeight: "bold",
                 color: "var(--accent-text)",
                 fontFamily: "impact",
-                marginTop: "36px",
+                marginTop: "8px",
                 
               }}
             >
