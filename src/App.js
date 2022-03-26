@@ -302,9 +302,13 @@ function App() {
               backgroundColor: "var(--accent)",
               border: "10px solid #048392",
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
-              height: "535px",
-              width: "235px",
-              marginLeft: "-45px"
+              height: "446px",
+              width: "210px",
+              
+              left: "495px",
+              top: "181px",
+          
+              opacity: "1";
             }}
           >
             <s.TextTitle
