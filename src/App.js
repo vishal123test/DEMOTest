@@ -111,6 +111,18 @@ export const StyledLogob = styled.img`
     box-shadow: 3px -10px inset #000;
 `;
 
+export const StyledLogoa = styled.img`
+  @media (min-width: 767px) {
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+  width: 143px;
+    height: 10px;
+    margin-top: 0px;
+    border: 1px solid rgb(99, 133, 150);
+    box-shadow: 3px -10px inset #000;
+`;
+
 export const StyledBar = styled.img`
   @media (min-width: 767px) {
   }
@@ -435,7 +447,7 @@ function App() {
                       {feedback}
                     </s.TextDescription>
 
-                    <StyledLogo alt={"redbar"} src={"/config/images/Bar.png"} />
+                    <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
 
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
