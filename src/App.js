@@ -239,7 +239,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{@media (min-width: 320px) {padding: 567px, margin: 14px, backgroundColor: "var(--primary)"}}}
+
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
