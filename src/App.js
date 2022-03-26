@@ -253,7 +253,7 @@ function App() {
         flex={1}
         ai={"center"}
 
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 0, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
 
