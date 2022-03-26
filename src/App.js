@@ -304,11 +304,9 @@ function App() {
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
               height: "446px",
               width: "210px",
-              
               left: "495px",
               top: "181px",
-          
-              opacity: "1";
+              opacity: "1"
             }}
           >
             <s.TextTitle
