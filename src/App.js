@@ -250,6 +250,7 @@ function App() {
               color: "#dad748",
               fontFamily: "var(--accent-font-family)",
               opacity: "1",
+              margin: "0 76px 0 0"     
             }}
           >
            CONNECTED
