@@ -288,7 +288,7 @@ function App() {
           >
           </s.TextDescription>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 0, height: "446px", width: "285px", left: "495px", top: "181px", opacity: "1"}} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 0 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <s.Container flex={1} jc={"center"} ai={"center"}>         
           </s.Container>
@@ -302,11 +302,9 @@ function App() {
               backgroundColor: "var(--accent)",
               border: "10px solid #048392",
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
-              height: "446px",
-              width: "250px",
-              left: "495px",
-              top: "181px",
-              opacity: "1"
+              height: "535px",
+              width: "235px",
+              marginLeft: "-45px"
             }}
           >
             <s.TextTitle
