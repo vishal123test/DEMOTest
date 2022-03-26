@@ -468,8 +468,8 @@ function App() {
                           color: "var(--accent-text-num)",
                           textShadow: "-3px 3px #000",
                           fontSize: "28px",
-                          fontFamily: 'monospace',
-                          fontWeight: "bold"
+                          fontFamily: "monospace",
+                          fontWeight: "bold",
                           opacity: "1",                 
                         }}
                       >
