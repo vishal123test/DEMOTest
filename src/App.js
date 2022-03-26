@@ -281,7 +281,7 @@ function App() {
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
               height: "535px",
               width: "235px",
-              marginLeft: "-55px"
+              marginLeft: "-45px"
             }}
           >
             <s.TextTitle
