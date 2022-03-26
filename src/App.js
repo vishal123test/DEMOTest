@@ -276,6 +276,14 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
+                   @media (min-width: 320px) {
+                    background-color: var(--accent);
+                    border: 10px solid rgb(4, 131, 146);
+                    box-shadow: rgb(34 106 125) 0px 0px 0px 10px inset;
+                    height: 559px;
+                    width: 235px;
+                    margin-left: -115px;
+                  }
               backgroundColor: "var(--accent)",
               border: "10px solid #048392",
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
