@@ -280,6 +280,8 @@ function App() {
               border: "10px solid #048392",
               boxShadow: "inset 0px 0px 0px 10px #226a7d",
               height: "535px",
+              width: "235px",
+              margin-left: "-115px"
             }}
           >
             <s.TextTitle
