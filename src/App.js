@@ -288,7 +288,7 @@ function App() {
           >
           </s.TextDescription>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 0 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 0, height: "446px", width: "210px", left: "495px", top: "181px", opacity: "1"}} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <s.Container flex={1} jc={"center"} ai={"center"}>         
           </s.Container>
