@@ -10,6 +10,26 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
+@media (min-width: 320px) {
+  border: 3px solid;
+  border-color: #00d1f6;
+  background-color: var(--secondary);
+  padding: 0px;
+  font-weight: bold;
+  color: var(--secondary-text-btn);
+  width: 100px;
+  cursor: pointer;
+  font-family: pressstart2p;
+  font-size: 22px;
+  fill: #f5c314;
+  opacity: 1;
+  margin: 14px;
+  text-shadow: -5px 4px #000;
+  :active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
   border: 2px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
