@@ -412,8 +412,6 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
-                    
-                       <StyledLogo alt={"redbar"} src={"/config/images/Bar.png"} />
                       
                         <s.TextDescription
                           style={{
