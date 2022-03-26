@@ -260,7 +260,6 @@ function App() {
                minWidth: "24", 
                width: "100", 
                height: "auto", 
-               position: "fixed", 
                top: "0",
                left: "0"
               }}
