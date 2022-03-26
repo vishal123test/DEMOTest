@@ -261,8 +261,8 @@ function App() {
                width: "100", 
                height: "auto", 
                position: "fixed", 
-               top: "0", l
-               eft: "0"
+               top: "0",
+               left: "0"
               }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
