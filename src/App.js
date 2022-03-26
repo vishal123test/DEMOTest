@@ -467,7 +467,7 @@ function App() {
                           textAlign: "center",
                           color: "var(--accent-text-num)",
                           textShadow: "-3px 3px #000",
-                          fontSize: "20px",
+                          fontSize: "28px",
                           fontFamily: 'cursive',
                           opacity: "1",                 
                         }}
