@@ -408,7 +408,7 @@ function App() {
                         getData();
                       }}
                     >
-                      MINT
+                      M I N T
                     </StyledButton>
   
                     <s.TextDescription
@@ -494,7 +494,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINT" : "MINT"}
+                        {claimingNft ? "M I N T" : "M I N T"}
                       </StyledButton>
                     </s.Container> }
                   </>
