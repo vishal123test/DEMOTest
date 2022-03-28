@@ -30,10 +30,10 @@ export const StyledButton = styled.button`
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
-  border: 2px solid;
+  border: 4px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
-  padding: 6px;
+  padding: 0px;
   font-weight: bold;
   color: var(--secondary-text-btn);
   width: 100px;
