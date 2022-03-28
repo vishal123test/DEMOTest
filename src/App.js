@@ -390,7 +390,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "fantasy" }}
                 >
-                  .01 ETH
+                  .01 eth
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
