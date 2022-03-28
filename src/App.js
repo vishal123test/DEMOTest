@@ -75,12 +75,10 @@ export const StyledRoundButton = styled.button`
 `;
 
 export const ResponsiveWrapper = styled.div`
-  display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: stretched;
   align-items: stretched;
-  width: 50%;
   @media (min-width: 767px) {
     flex-direction: row;
   }
@@ -300,7 +298,7 @@ function App() {
           >
           </s.TextDescription>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 0 }} test>
+        <ResponsiveWrapper flex={1} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <s.Container flex={1} jc={"center"} ai={"center"}>         
           </s.Container>
