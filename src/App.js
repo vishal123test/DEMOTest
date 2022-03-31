@@ -255,6 +255,7 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
+            </s.TextDescriptions>
            
             <span
               style={{
@@ -265,7 +266,7 @@ function App() {
             </span>
             <s.SpacerSmall />
               
-              <s.TextDescription
+              <s.TextDescriptions
             style={{
               textAlign: "center",
               color: "#dad748",
@@ -275,7 +276,7 @@ function App() {
             }}
           >
            CONNECTED
-          </s.TextDescription>
+          </s.TextDescriptions>
 
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
               
