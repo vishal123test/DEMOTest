@@ -269,7 +269,7 @@ function App() {
                padding: "24px", 
                backgroundColor: "var(--primary)"              
               }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
 
         <s.TextDescription
