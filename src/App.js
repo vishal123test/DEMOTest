@@ -299,7 +299,6 @@ function App() {
                       .01 eth
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <s.SpacerSmall />
                       {blockchain.account === "" ||
                         blockchain.smartContract === null ? (
                         <s.Container ai={"center"} jc={"center"}>
