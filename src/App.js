@@ -261,18 +261,7 @@ function App() {
               </>
             ) : (
               <>
-                <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
-                </s.TextTitle>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "fantasy" }}
-                >
-                  Excluding gas fees.
-                </s.TextDescription>
+                
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -281,6 +270,8 @@ function App() {
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
+                        fontSize: "18px",
+                        fontFamily: "fantasy"
                       }}
                     >
                       .01 eth
@@ -295,7 +286,7 @@ function App() {
                         getData();
                       }}
                     >
-                      M I N T
+                      MINT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -371,7 +362,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "M I N T" : "M I N T"}
+                        {claimingNft ? "MINT" : "MINT"}
                       </StyledButton>
                     </s.Container>
                   </>
