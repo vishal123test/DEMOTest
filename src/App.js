@@ -416,6 +416,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
+                    </s.TextDescription>
 
                     {blockchain.errorMsg !== "" ? (
                       <>
