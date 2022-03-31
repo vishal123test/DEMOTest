@@ -419,7 +419,7 @@ function App() {
                     <StyledLogo style={{
                     marginTop: "-649px",
                     width: "200px",
-                    marginLeft: "-201px",
+                    marginLeft: "-130px",
                     height: "10px"
                     }} 
                     alt={"redbar"} src={"/config/images/redbar.png"} />
