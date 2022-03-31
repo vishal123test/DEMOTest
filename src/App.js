@@ -330,17 +330,15 @@ function App() {
                   <>
                   
                   <s.TextDescription
-                          style={{
-                            textAlign: "center",
-                            color: "#dad748",
-                            fontFamily: "var(--accent-font-family)",
-                            opacity: "1"                            
-                          }}
-                        >
-                       CONNECTED
-                      </s.TextDescription>
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >
+                      {feedback}
+                    </s.TextDescription>
 
-                      <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+                    <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
 
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
