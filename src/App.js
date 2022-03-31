@@ -88,6 +88,18 @@ export const StyledLogob = styled.img`
     box-shadow: 3px -10px inset #000;
 `;
 
+export const StyledLogoa = styled.img`
+  @media (min-width: 767px) {
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+  width: 143px;
+    height: 10px;
+    margin-top: 0px;
+    border: 1px solid rgb(99, 133, 150);
+    box-shadow: 3px -10px inset #000;
+`;
+
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   border: 4px dashed var(--secondary);
@@ -113,7 +125,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState();
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -325,7 +337,9 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
-                      
+
+                      <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
+                        
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledRoundButton
