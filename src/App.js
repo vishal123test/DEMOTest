@@ -30,6 +30,28 @@ export const StyledButton = styled.button`
   }
 `;
 
+export const StyledButton2= styled.button`
+  border: 4px solid;
+  border-color: #00d1f6;
+  background-color: var(--secondary);
+  padding: 0px;
+  font-weight: bold;
+  color: var(--secondary-text-btn);
+  width: 100px;
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 30px;
+  fill: #f5c314;
+  opacity: 1;
+  margin: 14px;
+  text-shadow: -5px 4px #000;
+  :active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+`;
+
 export const StyledRoundButton = styled.button`
   padding: 10px; 
   border-radius: 100%;
@@ -307,7 +329,7 @@ function App() {
                     
                     <StyledLogob alt={"redbar"} src={"/config/images/Bar.png"} />
                     
-                    <StyledButton
+                    <StyledButton2
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
