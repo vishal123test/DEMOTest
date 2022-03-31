@@ -284,23 +284,21 @@ function App() {
             ) : (
               <>
                 
-                <s.SpacerSmall />
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "fantasy" }}
+                >
+                  .01 eth
+                </s.TextDescription>
+                  <s.SpacerSmall />
                 {blockchain.account === "" ||
-                blockchain.smartContract === null ? (
+                  blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                        fontSize: "18px",
-                        fontFamily: "fantasy"
-                      }}
-                    >
-                      .01 eth
-                    </s.TextDescription>
+                    
+                    <s.SpacerSmall />
                     
                     <StyledLogob alt={"redbar"} src={"/config/images/Bar.png"} />
-                                         
+                    
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -308,12 +306,22 @@ function App() {
                         getData();
                       }}
                     >
-                      MINT
+                      M I N T
                     </StyledButton>
-
-                    {blockchain.errorMsg !== "" ? (                      
+  
+                    <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >
+                     
+                        </s.TextDescription>
+                        
+                    {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
+                      
                         <s.TextDescription
                           style={{
                             textAlign: "center",
@@ -327,8 +335,7 @@ function App() {
                   </s.Container>
                 ) : (
                   <>
-                  
-                  <s.TextDescription
+                    <s.TextDescription
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
@@ -336,7 +343,7 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
-                    .01 eth
+
                     <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
 
                     <s.SpacerMedium />
@@ -360,7 +367,7 @@ function App() {
                           fontSize: "28px",
                           fontFamily: "monospace",
                           fontWeight: "bold",
-                          opacity: "1",  
+                          opacity: "1",                 
                         }}
                       >
                         {mintAmount}
@@ -377,7 +384,7 @@ function App() {
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                    { <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
@@ -386,9 +393,9 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINT" : "MINT"}
+                        {claimingNft ? "M I N T" : "M I N T"}
                       </StyledButton>
-                    </s.Container>
+                    </s.Container> }
                   </>
                 )}
               </>
