@@ -425,7 +425,7 @@ function App() {
               padding: "20px 60px",
               background: "var(--secondary)",
               position: "absolute",
-              bottom: "0",
+              bottom: "-100px",
               width: "100%"
             }}
           >
