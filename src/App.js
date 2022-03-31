@@ -14,7 +14,6 @@ export const StyledButton = styled.button`
   border: 4px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
-  padding: 10px;
   font-weight: bold;
   color: var(--secondary-text-btn);
   width: 100px;
