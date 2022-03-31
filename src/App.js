@@ -416,6 +416,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
+            <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
            2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
         </s.Container>
