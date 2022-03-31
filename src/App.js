@@ -21,7 +21,7 @@ export const StyledButton = styled.button`
   font-size: 30px;
   fill: #f5c314;
   opacity: 1;
-  margin: 14px;
+  margin: 14px 0 0 55px;
   text-shadow: -5px 4px #000;
   :active {
     box-shadow: none;
