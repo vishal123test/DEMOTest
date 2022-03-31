@@ -77,6 +77,8 @@ export const StyledRoundButton = styled.button`
 export const ResponsiveWrapper = styled.div`
   flex: 1;
   flex-direction: column;
+  display: flex;
+  width: 100%;
   justify-content: stretched;
   align-items: stretched;
   @media (min-width: 767px) {
