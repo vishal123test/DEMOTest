@@ -124,6 +124,8 @@ function App() {
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState();
+  const [claimingTxt, setClaimingTxt] = useState(false);
+  const [text, setText] = useState
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -151,8 +153,10 @@ function App() {
     let totalGasLimit = String(gasLimit * mintAmount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
+    setText(`CONNECTED`);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
+    setClaimingTxt(true);
     blockchain.smartContract.methods
       .mint(blockchain.account, mintAmount)
       .send({
@@ -162,6 +166,8 @@ function App() {
         value: totalCostWei,
       })
       .once("error", (err) => {
+        console.log(pre);
+        setText("CONNECTED");
         console.log(err);
         setFeedback("Sorry, something went wrong please try again later.");
         setClaimingNft(false);
