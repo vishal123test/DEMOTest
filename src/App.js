@@ -410,6 +410,7 @@ function App() {
                           color: "#dad748",
                           fontFamily: "var(--accent-font-family)",
                           marginTop: "-680px",
+                          marginLeft: "-80px",
                           opacity: "1"                               
                         }}
                       >
