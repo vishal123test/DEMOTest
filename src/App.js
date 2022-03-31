@@ -415,6 +415,7 @@ function App() {
                         }}
                       >
                       CONNECTED
+                    <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
                     </s.TextDescription>
 
                     </s.Container> }
