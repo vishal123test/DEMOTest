@@ -311,6 +311,20 @@ function App() {
                     >
                       MINT
                     </StyledButton>
+
+                      <s.TextDescription
+                          style={{
+                            textAlign: "center",
+                            color: "#dad748",
+                            fontFamily: "var(--accent-font-family)",
+                            opacity: "1"                            
+                          }}
+                        >
+                       CONNECTED
+                      </s.TextDescription>
+
+                      <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+                        
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -335,19 +349,6 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
-
-                     <s.TextDescription
-                        style={{
-                          textAlign: "center",
-                          color: "#dad748",
-                          fontFamily: "var(--accent-font-family)",
-                          opacity: "1"                            
-                        }}
-                      >
-                       CONNECTED
-                      </s.TextDescription>
-
-                      <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
 
                       <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
                         
