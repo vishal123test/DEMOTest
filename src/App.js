@@ -287,7 +287,7 @@ function App() {
            
           </s.TextDescription>
 
-          <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+          
 
         <s.TextDescription
             style={{
