@@ -98,6 +98,19 @@ export const StyledLogoa = styled.img`
     box-shadow: 3px -10px inset #000;
 `;
 
+export const StyledBar = styled.img`
+  @media (min-width: 767px) {
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+  width: 1922px;
+  height: 60px;
+  margin-top: 0px;
+  border-top: 2px solid #2a11d4;
+  box-shadow: rgb(0 0 0) 3px -10px inset;
+  margin-bottom: -66px;
+`;
+
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   border: 4px dashed var(--secondary);
@@ -401,7 +414,8 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-     
+        
+          <StyledBar alt={"redbar"} src={"/config/images/Basebar.png"} />
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -416,7 +430,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
+            
            2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
         </s.Container>
