@@ -298,12 +298,7 @@ function App() {
                     >
                       .01 eth
                     </s.TextDescription>
-                    <s.SpacerSmall />
-                      {blockchain.account === "" ||
-                        blockchain.smartContract === null ? (
-                        <s.Container ai={"center"} jc={"center"}>
                     
-                    <s.SpacerSmall />
                     <StyledLogob alt={"redbar"} src={"/config/images/Bar.png"} />
                                          
                     <StyledButton
