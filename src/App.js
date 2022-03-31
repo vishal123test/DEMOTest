@@ -10,30 +10,11 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-@media (min-width: 320px) {
-  border: 3px solid;
-  border-color: #00d1f6;
-  background-color: var(--secondary);
-  padding: 0px;
-  font-weight: bold;
-  color: var(--secondary-text-btn);
-  width: 100px;
-  cursor: pointer;
-  font-family: pressstart2p;
-  font-size: 22px;
-  fill: #f5c314;
-  opacity: 1;
-  margin: 14px;
-  text-shadow: -5px 4px #000;
-  :active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-}
+  padding: 10px;
   border: 4px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
-  padding: 0px;
+  padding: 10px;
   font-weight: bold;
   color: var(--secondary-text-btn);
   width: 100px;
@@ -44,6 +25,9 @@ export const StyledButton = styled.button`
   opacity: 1;
   margin: 14px;
   text-shadow: -5px 4px #000;
+  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -56,7 +40,7 @@ export const StyledRoundButton = styled.button`
   border-radius: 100%;
   border: none;
   background-color: var(--primary);
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
   font-size: 24px;
   color: var(--primary-text);
@@ -67,6 +51,9 @@ export const StyledRoundButton = styled.button`
   align-items: center;
   justify-content: center;
   text-shadow: -4px 3px #000;
+  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -75,9 +62,9 @@ export const StyledRoundButton = styled.button`
 `;
 
 export const ResponsiveWrapper = styled.div`
+  display: flex;
   flex: 1;
   flex-direction: column;
-  display: flex;
   width: 100%;
   justify-content: stretched;
   align-items: stretched;
@@ -87,7 +74,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
+  width: 200px;
   @media (min-width: 767px) {
+      width: 300px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -138,18 +127,18 @@ export const StyledBar = styled.img`
 
 
 export const StyledImg = styled.img` 
-//  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-//  border: 4px dashed var(--secondary);
-//   background-color: var(--accent);
-//   border-radius: 100%;
-//   width: 200px;
-//   @media (min-width: 900px) {
-//    width: 250px;
-//   }
-//   @media (min-width: 1000px) {
-//   width: 300px;
-//   }
-//   transition: width 0.5s;
+  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  border: 4px dashed var(--secondary);
+   background-color: var(--accent);
+   border-radius: 100%;
+   width: 200px;
+   @media (min-width: 900px) {
+    width: 250px;
+   }
+   @media (min-width: 1000px) {
+   width: 300px;
+   }
+   transition: width 0.5s;
   margin-left: -91%;
   padding-top: 29px;
   padding-bottom: 5px;
@@ -265,10 +254,7 @@ function App() {
         flex={1}
         ai={"center"}
 
-        style={{ 
-               padding: "24px", 
-               backgroundColor: "var(--primary)"              
-              }}
+        style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
       >
 
@@ -510,7 +496,7 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
             
-        <s.Container jc={"center"} ai={"center"} style={{ width: "103%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <StyledBar alt={"redbar"} src={"/config/images/Basebar.png"} />
           <s.TextDescription
             style={{
