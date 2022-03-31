@@ -10,7 +10,6 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10px;
   border: 4px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
