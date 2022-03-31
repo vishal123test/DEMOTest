@@ -220,7 +220,7 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={0}
+        flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
@@ -233,7 +233,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={1}
+            flex={0}
             jc={"center"}
             ai={"center"}
             style={{
