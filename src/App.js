@@ -267,6 +267,12 @@ function App() {
               
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
+                <s.TextDescription
+                    style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  >
+                    CONNECTED
+                  </s.TextDescription>
+
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
