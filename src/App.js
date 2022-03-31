@@ -312,8 +312,6 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
-
-                    <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
                       
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
