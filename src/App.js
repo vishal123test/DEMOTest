@@ -312,6 +312,8 @@ function App() {
                       MINT
                     </StyledButton>
 
+                    {blockchain.errorMsg !== "" ? (
+                      
                       <s.TextDescription
                           style={{
                             textAlign: "center",
@@ -324,8 +326,7 @@ function App() {
                       </s.TextDescription>
 
                       <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-                        
-                    {blockchain.errorMsg !== "" ? (
+                      
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
