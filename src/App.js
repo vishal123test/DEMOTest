@@ -418,6 +418,21 @@ function App() {
                     >
                      
                     </s.TextDescription>
+
+                    <s.TextDescription
+                    style={{
+                      textAlign: "center",
+                      color: "#dad748",
+                      fontFamily: "var(--accent-font-family)",
+                      opacity: "1",
+                      margin: "0 76px 0 0"     
+                    }}
+                  >
+                   CONNECTED
+                  </s.TextDescription>
+
+                  <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
