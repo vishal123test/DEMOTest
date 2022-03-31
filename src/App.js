@@ -216,8 +216,8 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
-              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
+              border: "10px solid #048392",
+              boxShadow: "inset 0px 0px 0px 10px #226a7d"
             }}
           >
             <s.TextTitle
@@ -225,46 +225,19 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
+                fontFamily: "impact",
                 color: "var(--accent-text)",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--primary-text)",
-              }}
-            >
-              <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
-              </StyledLink>
-            </s.TextDescription>
+           
             <span
               style={{
                 textAlign: "center",
               }}
             >
-              <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Roadmap
-              </StyledButton>
-              <StyledButton
-                style={{
-                  margin: "5px",
-                }}
-                onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
-                }}
-              >
-                {CONFIG.MARKETPLACE}
-              </StyledButton>
+             
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -294,7 +267,7 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "fantasy" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -308,9 +281,12 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      .01 eth
                     </s.TextDescription>
                     <s.SpacerSmall />
+                        
+                    <StyledLogob alt={"redbar"} src={"/config/images/Bar.png"} />
+                          
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -318,7 +294,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      M I N T
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -344,6 +320,9 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
+
+                    <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
+                      
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledRoundButton
@@ -361,6 +340,11 @@ function App() {
                         style={{
                           textAlign: "center",
                           color: "var(--accent-text)",
+                          textShadow: "-3px 3px #000",
+                          fontSize: "28px",
+                          fontFamily: "monospace",
+                          fontWeight: "bold",
+                          opacity: "1",  
                         }}
                       >
                         {mintAmount}
@@ -386,7 +370,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINT" : "MINT"}
+                        {claimingNft ? "M I N T" : "M I N T"}
                       </StyledButton>
                     </s.Container>
                   </>
@@ -402,15 +386,13 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <StyledBar alt={"redbar"} src={"/config/images/Basebar.png"} />
           <s.TextDescription
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -419,9 +401,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+           2022 - NOT AFFLIATED WITH NBA JAM OR ANY OTHER NFT PROJECT
           </s.TextDescription>
         </s.Container>
       </s.Container>
