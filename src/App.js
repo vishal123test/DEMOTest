@@ -336,7 +336,7 @@ function App() {
                     >
                       {feedback}
                     </s.TextDescription>
-
+                    .01 eth
                     <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
 
                     <s.SpacerMedium />
