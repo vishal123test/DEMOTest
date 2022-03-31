@@ -272,7 +272,7 @@ function App() {
                top: "0",
                left: "0"
               }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
 
         <s.TextDescription
