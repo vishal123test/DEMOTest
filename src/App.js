@@ -354,7 +354,7 @@ function App() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--accent-text)",
+                          color: "var(--accent-text-num)",
                           textShadow: "-3px 3px #000",
                           fontSize: "28px",
                           fontFamily: "monospace",
