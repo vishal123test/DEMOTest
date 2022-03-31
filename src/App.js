@@ -265,20 +265,6 @@ function App() {
             </span>
             <s.SpacerSmall />
               
-              <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "#dad748",
-              fontFamily: "var(--accent-font-family)",
-              opacity: "1",
-              margin: "0 76px 0 0"     
-            }}
-          >
-           CONNECTED
-          </s.TextDescription>
-
-          <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-              
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
