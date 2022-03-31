@@ -341,19 +341,6 @@ function App() {
                       </s.TextDescription>
 
                       <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-                        
-                     <s.Container ai={"top"} jc={"center"} fd={"row"}>   
-                        <s.TextDescription
-                          style={{
-                            textAlign: "center",
-                            color: "var(--accent-text)",
-                          }}
-                        >
-                          {feedback}
-                        </s.TextDescription>
-
-                          <StyledLogoa alt={"redbar"} src={"/config/images/Bar.png"} />
-                     </s.Container>
 
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
