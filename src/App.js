@@ -423,7 +423,7 @@ function App() {
               textAlign: "center",
               color: "var(--primary-text)",
               padding: "20px 60px",
-              background: "var(--secondary)",
+              background: "#0a023f",
               position: "absolute",
               width: "100%"
             }}
