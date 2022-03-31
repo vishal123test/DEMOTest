@@ -401,7 +401,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINT" : "MINT"}
+                        
                       </StyledButton>
                     </s.Container> }
                   </>
