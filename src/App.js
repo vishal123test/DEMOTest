@@ -233,7 +233,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={0}
+            flex={2}
             jc={"center"}
             ai={"center"}
             style={{
