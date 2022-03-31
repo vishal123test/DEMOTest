@@ -30,7 +30,7 @@ export const StyledButton = styled.button`
   }
 `;
 
-export const StyledButton2= styled.button`
+export const StyledButtons= styled.button`
   border: 4px solid;
   border-color: #00d1f6;
   background-color: var(--secondary);
@@ -329,7 +329,7 @@ function App() {
                     
                     <StyledLogob alt={"redbar"} src={"/config/images/Bar.png"} />
                     
-                    <StyledButton2
+                    <StyledButtons
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
