@@ -220,7 +220,7 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={1}
+        flex={0}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.jpg" : null}
