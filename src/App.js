@@ -31,12 +31,13 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10px;
+  padding: 10px; 
   border-radius: 100%;
   border: none;
-  padding: 10px;
+  background-color: var(--primary);
+  padding: 15px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   color: var(--primary-text);
   width: 30px;
   height: 30px;
