@@ -264,13 +264,8 @@ function App() {
         ai={"center"}
 
         style={{ 
-               padding: "38px 0px 0px 0px", 
-               backgroundColor: "var(--primary)", 
-               minHeight: "100", 
-               minWidth: "24", 
-               width: "100",  
-               top: "0",
-               left: "0"
+               padding: "24px", 
+               backgroundColor: "var(--primary)"              
               }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
