@@ -401,8 +401,20 @@ function App() {
                           getData();
                         }}
                       >
-                        
+                      {claimingNft ? "MINT" : "MINT"}
                       </StyledButton>
+                      
+                      <s.TextDescription
+                        style={{
+                          textAlign: "center",
+                          color: "#dad748",
+                          fontFamily: "var(--accent-font-family)",
+                          opacity: "1"                               
+                        }}
+                      >
+                      CONNECTED
+                    </s.TextDescription>
+
                     </s.Container> }
                   </>
                 )}
