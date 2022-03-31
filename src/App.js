@@ -255,8 +255,7 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            </s.TextDescription>
-           
+                       
             <span
               style={{
                 textAlign: "center",
