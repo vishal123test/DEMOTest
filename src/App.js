@@ -417,7 +417,7 @@ function App() {
                       CONNECTED
                     </s.TextDescription>
                     <StyledLogo style={{
-                    margin-top: "-649px",
+                    marginTop: "-649px",
                     width: "200px",
                     marginLeft: "-201px",
                     height: "10px"
