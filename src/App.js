@@ -285,7 +285,7 @@ function App() {
               margin: "0 76px 0 0"     
             }}
           >
-           CONNECTED
+           
           </s.TextDescription>
 
           <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
