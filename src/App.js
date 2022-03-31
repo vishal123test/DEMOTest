@@ -385,7 +385,7 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <StyledBar alt={"redbar"} src={"/config/images/Basebar.png"} />
+     
           <s.TextDescription
             style={{
               textAlign: "center",
