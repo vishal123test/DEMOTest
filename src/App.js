@@ -125,7 +125,7 @@ function App() {
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState();
   const [claimingTxt, setClaimingTxt] = useState(false);
-  const [text, setText] = useState
+  const [text, setText] = useState();
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
