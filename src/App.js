@@ -264,12 +264,11 @@ function App() {
         ai={"center"}
 
         style={{ 
-               padding: "0", 
+               padding: "50px", 
                backgroundColor: "var(--primary)", 
                minHeight: "100", 
                minWidth: "24", 
-               width: "100", 
-               height: "auto", 
+               width: "100",  
                top: "0",
                left: "0"
               }}
