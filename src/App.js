@@ -67,6 +67,7 @@ export const ResponsiveWrapper = styled.div`
 
 export const StyledLogo = styled.img`
   width: 200px;
+  marginTop: -680px;
   @media (min-width: 767px) {
     width: 300px;
   }
@@ -415,9 +416,8 @@ function App() {
                         }}
                       >
                       CONNECTED
-                    <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
                     </s.TextDescription>
-
+                    <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
                     </s.Container> }
                   </>
                 )}
