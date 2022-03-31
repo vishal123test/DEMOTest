@@ -337,7 +337,7 @@ function App() {
                       }}
                     >
                       MINT
-                    </StyledButton>
+                    </StyledButtons>
   
                     <s.TextDescription
                       style={{
