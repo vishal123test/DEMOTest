@@ -240,6 +240,7 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
+              height: "100%",
               border: "10px solid #048392",
               boxShadow: "inset 0px 0px 0px 10px #226a7d"
             }}
