@@ -403,9 +403,8 @@ function App() {
                       >
                       {claimingNft ? "MINT" : "MINT"}
                       </StyledButton>
-                    </s.Container> }
 
-                    <s.TextDescription
+                      <s.TextDescription
                         style={{
                           textAlign: "center",
                           color: "#dad748",
@@ -416,6 +415,8 @@ function App() {
                       >
                       CONNECTED
                     </s.TextDescription>
+
+                    </s.Container> }
                   </>
                 )}
               </>
