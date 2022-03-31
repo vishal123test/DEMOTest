@@ -306,7 +306,7 @@ function App() {
                         getData();
                       }}
                     >
-                      M I N T
+                      MINT
                     </StyledButton>
   
                     <s.TextDescription
@@ -393,7 +393,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "M I N T" : "M I N T"}
+                        {claimingNft ? "MINT" : "MINT"}
                       </StyledButton>
                     </s.Container> }
                   </>
@@ -422,6 +422,11 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
+              padding: "20px 60px",
+              background: "var(--secondary)",
+              position: "absolute",
+              bottom: "0",
+              width: "100%"
             }}
           >
             
