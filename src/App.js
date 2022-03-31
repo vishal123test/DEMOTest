@@ -312,21 +312,7 @@ function App() {
                       MINT
                     </StyledButton>
 
-                    {blockchain.errorMsg !== "" ? (
-                      
-                      <s.TextDescription
-                          style={{
-                            textAlign: "center",
-                            color: "#dad748",
-                            fontFamily: "var(--accent-font-family)",
-                            opacity: "1"                            
-                          }}
-                        >
-                       CONNECTED
-                      </s.TextDescription>
-
-                      <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
-                      
+                    {blockchain.errorMsg !== "" ? (                      
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
@@ -342,6 +328,20 @@ function App() {
                   </s.Container>
                 ) : (
                   <>
+                  
+                  <s.TextDescription
+                          style={{
+                            textAlign: "center",
+                            color: "#dad748",
+                            fontFamily: "var(--accent-font-family)",
+                            opacity: "1"                            
+                          }}
+                        >
+                       CONNECTED
+                      </s.TextDescription>
+
+                      <StyledLogo alt={"redbar"} src={"/config/images/redbar.png"} />
+                        
                     <s.TextDescription
                       style={{
                         textAlign: "center",
