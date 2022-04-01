@@ -17,7 +17,7 @@ export const StyledButton = styled.button`
   color: var(--secondary-text-btn);
   width: 100px;
   cursor: pointer;
-  font-family: fantasy;
+  font-family: impact;
   font-size: 30px;
   fill: #f5c314;
   opacity: 1;
@@ -39,7 +39,7 @@ export const StyledButtons= styled.button`
   color: var(--secondary-text-btn);
   width: 100px;
   cursor: pointer;
-  font-family: "coder","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: impact;
   font-size: 30px;
   fill: #f5c314;
   opacity: 1;
