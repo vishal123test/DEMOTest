@@ -431,7 +431,7 @@ function App() {
                           textAlign: "center",
                           color: "#dad748",
                           fontFamily: "var(--accent-font-family)",
-                          marginTop: "-680px",
+                          marginTop: "-730px",
                           marginLeft: "-80px",
                           opacity: "1"                               
                         }}
@@ -439,7 +439,7 @@ function App() {
                       CONNECTED
                     </s.TextDescription>
                     <StyledLogo style={{
-                    marginTop: "-649px",
+                    marginTop: "-705px",
                     width: "200px",
                     marginLeft: "-130px",
                     height: "10px"
