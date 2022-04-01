@@ -39,7 +39,7 @@ export const StyledButtons= styled.button`
   color: var(--secondary-text-btn);
   width: 100px;
   cursor: pointer;
-  font-family: fantasy;
+  font-family: "coder","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-size: 30px;
   fill: #f5c314;
   opacity: 1;
@@ -316,7 +316,7 @@ function App() {
                 
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "fantasy" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)", fontSize: "18px", fontFamily: "coder","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","sans-serif" }}
                 >
                   .01 eth
                 </s.TextDescription>
