@@ -338,7 +338,16 @@ function App() {
                     >
                       MINT
                     </StyledButtons>
-  
+                    
+                    <TextInput
+                    value={value || ''}                 // Current field value
+                    readOnly={readOnly}           // If "readOnly" is defined make this field read only
+                    placeholder={placeholder}     // If placeholder is defined, display placeholder text
+                    onFocus={onFocus}             // Handles focus events
+                    onBlur={onBlur}               // Handles blur events
+                    ref={ref}
+                  />
+            
                     <s.TextDescription
                       style={{
                         textAlign: "center",
