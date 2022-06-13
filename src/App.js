@@ -345,7 +345,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      Note:
                     </s.TextDescription>
 
                     <s.TextDescription
