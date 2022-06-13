@@ -345,6 +345,15 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
+                      Connect to the {CONFIG.NETWORK.NAME} network
+                    </s.TextDescription>
+
+                    <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >
                      
                         </s.TextDescription>
                         
