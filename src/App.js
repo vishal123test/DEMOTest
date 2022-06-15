@@ -348,6 +348,7 @@ function App() {
                           marginRight: "-54px",
                           marginLeft: "-50px",
                           border: "1px solid",
+                          borderColor: "#638596",
                         }}
                       >
                          Private Note:
