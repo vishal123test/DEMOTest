@@ -339,6 +339,12 @@ function App() {
                       MINT
                     </StyledButtons>
 
+                      <StyledInput
+                          
+                        >
+                          MINT
+                    </StyledInput>
+
                     <s.TextDescription
                       style={{
                         textAlign: "center",
