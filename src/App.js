@@ -348,6 +348,16 @@ function App() {
                       Note:
                     </s.TextDescription>
 
+                  <StyledButton
+                    
+                    style={{
+                      margin: "5px",
+                    }}
+                  >
+                    Private Note:
+                    To access the Private Note feature, You must be Connected Metamask
+                </StyledButton>
+
                     <s.TextDescription
                       style={{
                         textAlign: "center",
