@@ -344,6 +344,10 @@ function App() {
                         style={{
                           textAlign: "center",
                           color: "var(--primary-text)",
+                          marginTop: "20px",
+                          marginRight: "-54px",
+                          marginLeft: "-50px",
+                          border: "1px solid",
                         }}
                       >
                          Private Note:
