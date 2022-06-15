@@ -52,6 +52,28 @@ export const StyledButtons= styled.button`
   }
 `;
 
+export const TextDescription= styled.text`
+  border: 4px solid;
+  border-color: #00d1f6;
+  background-color: var(--secondary);
+  padding: 0px;
+  font-weight: bold;
+  color: var(--secondary-text-btn);
+  width: 100px;
+  cursor: pointer;
+  font-family: impact;
+  font-size: 30px;
+  fill: #f5c314;
+  opacity: 1;
+  margin: 14px;
+  text-shadow: -5px 4px #000;
+  :active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+`;
+
 export const StyledRoundButton = styled.button`
   padding: 10px; 
   border-radius: 100%;
@@ -339,24 +361,18 @@ function App() {
                       MINT
                     </StyledButtons>
 
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      Note:
-                    </s.TextDescription>
-
-                  <StyledButton
+                  <TextDescription
                     
                     style={{
-                      margin: "5px",
+                      textAlign: "center",
+                      fontSize: 50,
+                      fontWeight: "bold",
+                      color: "var(--accent-text)",
                     }}
                   >
                     Private Note:
                     To access the Private Note feature, You must be Connected Metamask
-                </StyledButton>
+                </TextDescription>
 
                     <s.TextDescription
                       style={{
