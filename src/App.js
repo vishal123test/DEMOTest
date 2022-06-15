@@ -351,24 +351,9 @@ function App() {
                         }}
                       >
                          Private Note:
-                         
+                         To access the Private Note feature, You must be Connected Metamask
                       </s.TextDescription>
                       <s.SpacerSmall />                      
-                 
-
-                      <s.SpacerSmall />
-                        <s.TextDescription
-                          style={{
-                            textAlign: "center",
-                            color: "var(--primary-text)",
-                            marginTop: "20px",
-                            marginRight: "-54px",
-                            marginLeft: "-50px",
-                            border: "1px solid",
-                          }}
-                        >
-                          To access the Private Note feature, You must be Connected Metamask
-                      </s.TextDescription>
                     </s.Container>
                   <s.TextDescription
                       style={{
