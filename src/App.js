@@ -339,20 +339,20 @@ function App() {
                       MINT
                     </StyledButtons>
 
-                  <TextDescription
-                    
-                    style={{
-                      textAlign: "center",
-                      fontSize: 50,
-                      fontWeight: "bold",
-                      color: "var(--accent-text)",
-                    }}
-                  >
-                    Private Note:
-                    To access the Private Note feature, You must be Connected Metamask
-                </TextDescription>
+                  <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+                      <s.TextDescription
+                        style={{
+                          textAlign: "center",
+                          color: "var(--primary-text)",
+                        }}
+                      >
+                         Private Note:
+                         To access the Private Note feature, You must be Connected Metamask
+                      </s.TextDescription>
+                      <s.SpacerSmall />                      
+                  </s.Container>
 
-                    <s.TextDescription
+                  <s.TextDescription
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
