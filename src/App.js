@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import TextField from '@material-ui/core/TextField';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -362,8 +363,27 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                     
-                        </s.TextDescription>
+                  </s.TextDescription>
+
+                  <TextField
+                                value={this.state.title}
+
+                                onChange={this.handleChange}
+                                //defaultValue={this.state.title}
+
+                                //onChange={(e) => { this.setState({ title: e.target.value }) }}
+
+                                style={{ width: '100%' }}
+
+                            />
+
+                           
+
+                            <div style={{marginTop:'10px'}}>
+
+                                <button type="submit">Update</button>
+
+                                </div>
                         
                     {blockchain.errorMsg !== "" ? (
                       <>
