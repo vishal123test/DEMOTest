@@ -376,15 +376,6 @@ function App() {
                                 style={{ width: '100%' }}
 
                             />
-
-                           
-
-                            <div style={{marginTop:'10px'}}>
-
-                                <button type="submit">Update</button>
-
-                                </div>
-                        
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
