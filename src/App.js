@@ -364,11 +364,42 @@ function App() {
                     >
                   </s.TextDescription>
                   
+                            //----< return >----     
+
+            <div className="submit-form">
+
+                {
+
+                    //--< IsLoaded >--
+
+                    <form className="submit-form">
+
+                        <div>
+
+                            <Link to={"/👁/" + this.state.idarticle}><Fab color="secondary" aria-label="save and show" style={{ float: 'right' }} >
+
+                                <RemoveRedEye />
+
+                            </Fab>
+
+                            </Link>
+
+ 
+
+                           
+
                             <TextField
 
                                 value={this.state.title}
 
                                 onChange={this.handleChange}
+
+ 
+
+ 
+
+ 
+
                                 //defaultValue={this.state.title}
 
                                 //onChange={(e) => { this.setState({ title: e.target.value }) }}
@@ -376,6 +407,30 @@ function App() {
                                 style={{ width: '100%' }}
 
                             />
+
+                           
+
+                            <div style={{marginTop:'10px'}}>
+
+                                <button type="submit">Update</button>
+
+                                </div>
+
+                        </div>
+
+ 
+
+                        <input type="hidden" value={this.state.idarticle} />
+
+                    </form>
+
+                    //--</ IsLoaded >--
+
+                }
+
+            </div>
+
+            //----</ return >----
                   
                     {blockchain.errorMsg !== "" ? (
                       <>
