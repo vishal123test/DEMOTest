@@ -365,17 +365,7 @@ function App() {
                     >
                   </s.TextDescription>
 
-                  <TextField
-                                value={this.state.title}
-
-                                onChange={this.handleChange}
-                                //defaultValue={this.state.title}
-
-                                //onChange={(e) => { this.setState({ title: e.target.value }) }}
-
-                                style={{ width: '100%' }}
-
-                            />
+                  
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
