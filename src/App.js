@@ -141,12 +141,7 @@ export const StyledLink = styled.a`
 `;
 
 function App() {
-  return (
-    <div className="App">
-    <TextField
-    label="Message"
-    />
-  );
+  
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
